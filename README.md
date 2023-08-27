@@ -1,4 +1,4 @@
-# Edge Template
+# Edge Template Engine
 
 ## The problem
 
@@ -12,7 +12,7 @@ Because ES-modules are compatible with any javascript environment, you can use t
 1. first (pre)compile you template to esm. Typically you'd do this during your build step:
 
 ```js
-import edge from "@frontsome/edge-template"
+import edge from "edge-template-engine"
 import * as fs from "fs"
 
 // compile
@@ -74,3 +74,6 @@ Inside ${} you can use any javascript expression you want. Functions, methods, p
 ## Credits
 
 Based on on li-template by Patrick Pissurno.
+
+## Press the :star: button
+Don't forget to press the :star: button to let me know I should continue improving this project.
